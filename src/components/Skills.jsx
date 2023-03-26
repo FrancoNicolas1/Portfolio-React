@@ -9,6 +9,12 @@ import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import Redux from "../assets/REDUX.png"
+import sql from "../assets/SQL.png"
+import postgresql from "../assets/POSTGRESQL.png"
+import graphql from "../assets/GRAPHQL.png"
+import express from "../assets/EXPRESS.png"
+import aws from "../assets/aws.png"
 
 const Skills = () => {
   return (
@@ -16,8 +22,9 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-              <p className='py-4'>// These are the technologies I've worked with</p>
+              <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
+Technologies</p>
+             
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -38,6 +45,10 @@ const Skills = () => {
                   <p className='my-4'>REACT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Redux} alt="HTML icon" />
+                  <p className='my-4'>REDUX</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
@@ -50,13 +61,23 @@ const Skills = () => {
                   <p className='my-4'>MONGO DB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>TAILWIND</p>
+                  <img className='w-20 mx-auto' src={sql} alt="HTML icon" />
+                  <p className='my-4'>MYSQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
+                  <img className='w-20 mx-auto' src={graphql} alt="HTML icon" />
+                  <p className='my-4'>GRAPHQL</p>
               </div>
+           
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={express} alt="HTML icon" />
+                  <p className='my-4'>POSTGRESQL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={aws} alt="HTML icon" />
+                  <p className='my-4'>AWS</p>
+              </div>
+            
           </div>
       </div>
     </div>
