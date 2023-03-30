@@ -15,13 +15,13 @@ export const data = [
     name: "React JS Application",
     image: Poke,
     github: "https://github.com/FrancoNicolas1/PI-Pokemon",
-    live: "",
+    live: "https://pi-pokemon-franco-front-production.up.railway.app/",
   },
   {
     id: 3,
     name: "React JS Application",
     image: WorkIm,
     github: "https://github.com/FrancoNicolas1/PI-Dogs-Henry",
-    live: "",
+    live: "https://pi-dogs-franco-production.up.railway.app/",
   },
 ];
