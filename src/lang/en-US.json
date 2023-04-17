@@ -1,0 +1,22 @@
+{
+    "app.home": "Home",
+    "app.about": "About",
+    "app.technologies": "Technologies",
+    "app.projects": "Projects",
+
+    "app.hi":"Hi, my name is",
+    "app.iam":"I'm a Full Stack Developer.",
+    "app.graduated":"I am a newly graduated developer with a strong knowledge of programming languages. I have worked on various academic and personal projects where I have developed skills in building scalable and secure applications.",
+    "app.viewWork":"View Work",
+
+    "app.aboutMe":"About",
+    "app.hiIAm":"Hi. I'm Franco Hermosilla, nice to meet you",
+    "app.Graduated":"Graduated from Henry as a Full Stack developer 💻. I love challenges and starting on this path as a developer is one of them. During my course at Henry 🧑‍🎓, I participated in different projects 💼 where I was able to develop my technological skills and at the same time learn other technologies as a self-taught person. 💖I am passionate about programming and my goal is to continue developing as a Full Stack as part of a company that allows me to apply everything I have learned so far and continue to grow both personally and professionally to achieve the best possible results 💪.",
+
+    "app.code":"Code",
+    "app.live":"Live",
+
+    "app.contact":"Contact",
+    "app.send":"Send"
+
+}

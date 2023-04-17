@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import {
   FaBars,
   FaTimes,
@@ -11,9 +11,17 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/5f439d47777cdb0004f2ecae.png';
 import { Link } from 'react-scroll';
+import { FormattedMessage } from 'react-intl';
+import { langContext } from '../context/langContext';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+ 
+    const { establecerLenguaje } = useContext(langContext);
+  
+    const cambiarIdioma = (idioma) => {
+      establecerLenguaje(idioma);
+    };
   const handleClick = () => setNav(!nav);
 
   return (
@@ -21,35 +29,55 @@ const Navbar = () => {
       <div>
     
       </div>
-
+      
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
+      <button onClick={() => cambiarIdioma("es-MX")}>Español</button>
+      </li>
+      <button onClick={() => cambiarIdioma("en-US")}>English</button> 
+        <li>
           <Link to='home' smooth={true} duration={500}>
-            Home
+          <FormattedMessage
+            id="app.home"
+            defaultMessage="Home"
+            />
           </Link>
         </li>
         <li>
           <Link to='about' smooth={true} duration={500}>
-            About
+          <FormattedMessage
+            id="app.about"
+            defaultMessage="About"
+            />
           </Link>
         </li>
         <li>
           <Link to='skills' smooth={true} duration={500}>
-          Technologies
+          <FormattedMessage
+            id="app.technologies"
+            defaultMessage="Technologies"
+            />
           </Link>
         </li>
         <li>
           <Link to='work' smooth={true} duration={500}>
-            Projects
+          <FormattedMessage
+            id="app.projects"
+            defaultMessage="Projects"
+            />
           </Link>
         </li>
         <li>
           <Link to='contact' smooth={true} duration={500}>
-            Contact
+          <FormattedMessage
+            id="app.contact"
+            defaultMessage="Contact"
+            />
           </Link>
         </li>
       </ul>
+
 
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -66,31 +94,47 @@ const Navbar = () => {
       >
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
+          <FormattedMessage
+            id="app.home"
+            defaultMessage="Home"
+            />
+         
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
+          <FormattedMessage
+            id="app.about"
+            defaultMessage="About"
+            />
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-          Technologies
+          <FormattedMessage
+            id="app.technologies"
+            defaultMessage="Technologies"
+            />
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Projects
+          <FormattedMessage
+            id="app.projects"
+            defaultMessage="Projects"
+            />
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+          <FormattedMessage
+            id="app.contact"
+            defaultMessage="Contact"
+            />
           </Link>
         </li>
       </ul>

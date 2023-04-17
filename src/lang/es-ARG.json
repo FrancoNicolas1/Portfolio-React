@@ -1,0 +1,22 @@
+
+{
+    "app.home": "Inicio",
+"app.about": "Acerca de",
+"app.technologies": "Tecnologías",
+"app.projects": "Proyectos",
+
+"app.hi":"Hola, mi nombre es",
+"app.iam":"Soy un desarrollador de Full Stack.",
+"app.graduated":"Soy un desarrollador recién graduado con un gran conocimiento de los lenguajes de programación. He trabajado en varios proyectos académicos y personales en los que he desarrollado habilidades en la creación de aplicaciones escalables y seguras.",
+"app.viewWork":"Ver Trabajo",
+
+"app.aboutMe":"Acerca de",
+"app.hiIAm":"Hola. Soy Franco Hermosilla, encantado de conocerte",
+"app.Graduated":"Me gradué de Henry como desarrollador Full Stack 💻. Me encantan los desafíos y comenzar este camino como desarrollador es uno de ellos. Durante mi curso en Henry 🧑‍🎓, participé en diferentes proyectos 💼 donde pude desarrollar mis habilidades tecnológicas y al mismo tiempo aprender otras tecnologías como autodidacta. 💖Me apasiona la programación y mi meta es seguir desarrollándome como Full Stack como parte de una empresa que me permite aplicar todo He aprendido hasta ahora y sigo creciendo tanto personal como profesionalmente para lograr los mejores resultados posibles 💪.",
+
+"app.code":"Código",
+"app.live":"En vivo",
+
+"app.contact":"Contacto",
+"app.send":"Enviar"
+}

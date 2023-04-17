@@ -1,7 +1,7 @@
 import React from 'react';
 import { data } from "../data/data.js";
 import "../index.css"
-
+import { FormattedMessage } from 'react-intl';
 
 const Work = () => {
 
@@ -14,7 +14,10 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-            Projects
+          <FormattedMessage
+            id="app.projects"
+            defaultMessage="Projects"
+            />
           </p>
          
         </div>
@@ -42,7 +45,10 @@ const Work = () => {
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
           >
-            Code
+            <FormattedMessage
+            id="app.code"
+            defaultMessage="Projects"
+            />
           </button>
         </a>
         {/* eslint-disable-next-line */}
@@ -51,7 +57,10 @@ const Work = () => {
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
           >
-            Live
+           <FormattedMessage
+            id="app.live"
+            defaultMessage="Projects"
+            />
           </button>
         </a>
       </div>
