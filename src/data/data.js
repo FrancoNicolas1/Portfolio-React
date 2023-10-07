@@ -21,7 +21,7 @@ export const data = [
     id: 3,
     name: "React JS Application",
     image: WorkIm,
-    github: "https://pi-dogs-henry-murex.vercel.app/",
-    live: "https://pi-dogs-franco-production.up.railway.app/",
+    github: "https://github.com/FrancoNicolas1/PI-Dogs-Henry",
+    live: "https://pi-dogs-henry-murex.vercel.app/",
   },
 ];
