@@ -4,7 +4,8 @@
       {
         "src": "index.js",
         "config": {
-          "target": "web"
+          "target": "web",
+          "plugins": ["react-refresh"]
         }
       }
     ],
